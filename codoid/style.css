@@ -1,0 +1,149 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ul, li{
+    list-style: none;
+}
+input{
+    border: none;
+}
+body{
+    width: 140rem;
+}
+.tantum{
+    box-sizing: border-box;
+    padding: 6.5rem 21.5rem 10.3rem 20.9rem;
+    width: 105%;
+    overflow: hidden;
+    position: relative;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    background-color: white;        
+  }
+.tantum .logo {
+    margin: 0rem 0rem 8.2rem 0.5rem;
+    width: calc(100% - 0.5rem);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .tantum .logo .tantum-projects {
+    margin: 0rem 36rem 0.2rem 0rem;
+    text-align: justify;
+    margin-left: 25px;
+    margin-top: 40px;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height:1px;
+    letter-spacing: -0.0293rem;
+    color: #1088a0;
+    font-family: 'Lora', serif;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .tantum .logo .nav{ 
+    box-sizing: border-box;
+    padding: 0.74rem 3.4rem 0.66rem 0rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 40px;
+    margin-right: 40px;
+    
+  }
+
+  .tantum .logo .nav  .home{ 
+    margin-right: 1rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.4444444444;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .tantum .logo .nav .about-us {
+    margin-right: 1rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.4444444444;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .tantum .logo .nav .what-we-do {
+    margin-right: 1rem;    
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.4444444444;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+.tantum .logo .nav .projects {
+  margin-right: 1rem; 
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.4444444;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tantum .logo .nav .blogs{
+  margin-right: 1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.4444444;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tantum .logo .nav .contact{
+  margin-right: 1rem; 
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.4444444;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.color {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: 15%;
+  background-color:whitesmoke;
+}
+.color .text{
+  margin: 3.2rem 8.2rem 7.2rem 0rem;
+  height: calc(100% - 10.4rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  background-color: white;
+  margin-top: 10%;
+}
+.color .text .main-content{ 
+  margin: 0rem 0rem 0rem 0rem;
+  max-width: 42.1rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.1rem;
+  color: #1088a0;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+ .color .text .additional-content{
+  margin: 0rem 0rem 4.5rem 0.3rem;
+  max-width: 36.3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4545454545;
+  color: #0a0a0a;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+
